@@ -1,0 +1,41 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "interventions_atomicBomb.arreferenceimage"
+    },
+    {
+      "filename" : "interventions_burnsToxic.arreferenceimage"
+    },
+    {
+      "filename" : "interventions_disneyCastle.arreferenceimage"
+    },
+    {
+      "filename" : "interventions_gucciDaisy.arreferenceimage"
+    },
+    {
+      "filename" : "interventions_hercules.arreferenceimage"
+    },
+    {
+      "filename" : "interventions_redBaron.arreferenceimage"
+    },
+    {
+      "filename" : "interventions_whitesnowI.arreferenceimage"
+    },
+    {
+      "filename" : "interventions_whitesnowII.arreferenceimage"
+    },
+    {
+      "filename" : "interventions_whiteSnowIII.arreferenceimage"
+    },
+    {
+      "filename" : "interventions_whiteSnowIV.arreferenceimage"
+    },
+    {
+      "filename" : "interventions_whiteSnowV.arreferenceimage"
+    }
+  ]
+}

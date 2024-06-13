@@ -1,0 +1,17 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "aston_redCarOne.arreferenceimage"
+    },
+    {
+      "filename" : "aston_redCarThree.arreferenceimage"
+    },
+    {
+      "filename" : "aston_redCarTwo.arreferenceimage"
+    }
+  ]
+}

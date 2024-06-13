@@ -1,0 +1,89 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "cartoons3_asterixObelix.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons3_astro2.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons3_astroboy.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons3_batmanClose.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons3_batmanI.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons3_batmanII.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons3_brutus.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons3_brutusNew.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons3_cocoPope.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons3_cocoPope2.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons3_cocoPope3.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons3_fight.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons3_gata.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons3_ghost.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons3_homero.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons3_involiva.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons3_invpopeye.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons3_monstersINC.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons3_oliva.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons3_patula.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons3_popeye.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons3_robotina.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons3_simpson.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons3_snoopy.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons3_snoopy2.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons3_wade.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons3_wewill.arreferenceimage"
+    }
+  ]
+}

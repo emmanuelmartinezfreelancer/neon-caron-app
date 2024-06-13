@@ -1,0 +1,80 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "cartoons_acidSimpsons.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons_benito2.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons_benito3.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons_collageCartoon.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons_conde2.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons_crossover.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons_cry.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons_cry2.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons_cutFelix.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons_dongato3.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons_happyBenito.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons_homer2.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons_jetsons.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons_lucas2.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons_lucas3.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons_oliviaAlone.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons_pedro2.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons_pedroypablo.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons_sadPopeye.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons_snoop1.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons_snoop2.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons_snoop3.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons_sonico.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons_supersonicos2.arreferenceimage"
+    }
+  ]
+}

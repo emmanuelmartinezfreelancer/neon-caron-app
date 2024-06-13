@@ -1,0 +1,89 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "neon2_adam.arreferenceimage"
+    },
+    {
+      "filename" : "neon2_azul.arreferenceimage"
+    },
+    {
+      "filename" : "neon2_billete_100.arreferenceimage"
+    },
+    {
+      "filename" : "neon2_billete_1000.arreferenceimage"
+    },
+    {
+      "filename" : "neon2_cabos2.arreferenceimage"
+    },
+    {
+      "filename" : "neon2_golf5.arreferenceimage"
+    },
+    {
+      "filename" : "neon2_herrera.arreferenceimage"
+    },
+    {
+      "filename" : "neon2_invitacion.arreferenceimage"
+    },
+    {
+      "filename" : "neon2_mariana.arreferenceimage"
+    },
+    {
+      "filename" : "neon2_matrimonio.arreferenceimage"
+    },
+    {
+      "filename" : "neon2_muertos.arreferenceimage"
+    },
+    {
+      "filename" : "neon2_muneca.arreferenceimage"
+    },
+    {
+      "filename" : "neon2_myRide.arreferenceimage"
+    },
+    {
+      "filename" : "neon2_neonderecha.arreferenceimage"
+    },
+    {
+      "filename" : "neon2_neonizquierda.arreferenceimage"
+    },
+    {
+      "filename" : "neon2_ojos.arreferenceimage"
+    },
+    {
+      "filename" : "neon2_pastel.arreferenceimage"
+    },
+    {
+      "filename" : "neon2_perseo.arreferenceimage"
+    },
+    {
+      "filename" : "neon2_protesta.arreferenceimage"
+    },
+    {
+      "filename" : "neon2_sangre.arreferenceimage"
+    },
+    {
+      "filename" : "neon2_slim.arreferenceimage"
+    },
+    {
+      "filename" : "neon2_virgen.arreferenceimage"
+    },
+    {
+      "filename" : "neon2_virgen01.arreferenceimage"
+    },
+    {
+      "filename" : "neon2_virgen02.arreferenceimage"
+    },
+    {
+      "filename" : "neon2_virgenAzulRosa.arreferenceimage"
+    },
+    {
+      "filename" : "neon2_virgenNaranjaAmarillo.arreferenceimage"
+    },
+    {
+      "filename" : "neon2_virgenpray.arreferenceimage"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "prints_acidSimpsons.arreferenceimage"
+    },
+    {
+      "filename" : "prints_aerosmith.arreferenceimage"
+    },
+    {
+      "filename" : "prints_alejandro.arreferenceimage"
+    },
+    {
+      "filename" : "prints_astro2.arreferenceimage"
+    },
+    {
+      "filename" : "prints_cafe.arreferenceimage"
+    },
+    {
+      "filename" : "prints_davidg.arreferenceimage"
+    },
+    {
+      "filename" : "prints_diablo.arreferenceimage"
+    },
+    {
+      "filename" : "prints_donaldMuros.arreferenceimage"
+    },
+    {
+      "filename" : "prints_donalds2.arreferenceimage"
+    },
+    {
+      "filename" : "prints_garbage.arreferenceimage"
+    },
+    {
+      "filename" : "prints_halls.arreferenceimage"
+    },
+    {
+      "filename" : "prints_hawk.arreferenceimage"
+    },
+    {
+      "filename" : "prints_jared.arreferenceimage"
+    },
+    {
+      "filename" : "prints_jetsons.arreferenceimage"
+    },
+    {
+      "filename" : "prints_juanpa.arreferenceimage"
+    },
+    {
+      "filename" : "prints_maluma.arreferenceimage"
+    },
+    {
+      "filename" : "prints_mickeyMuros.arreferenceimage"
+    },
+    {
+      "filename" : "prints_mickeysfaces.arreferenceimage"
+    },
+    {
+      "filename" : "prints_pica2.arreferenceimage"
+    },
+    {
+      "filename" : "prints_rory.arreferenceimage"
+    },
+    {
+      "filename" : "prints_seriBenito.arreferenceimage"
+    },
+    {
+      "filename" : "prints_seriDonGato.arreferenceimage"
+    },
+    {
+      "filename" : "prints_seriwaters.arreferenceimage"
+    },
+    {
+      "filename" : "prints_simpson.arreferenceimage"
+    },
+    {
+      "filename" : "prints_supersonicos.arreferenceimage"
+    },
+    {
+      "filename" : "prints_VirgenMagenta.arreferenceimage"
+    },
+    {
+      "filename" : "prints_yuri.arreferenceimage"
+    }
+  ]
+}

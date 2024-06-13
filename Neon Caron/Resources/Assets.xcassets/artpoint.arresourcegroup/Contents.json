@@ -1,0 +1,26 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "airpoint_donaldRed.arreferenceimage"
+    },
+    {
+      "filename" : "airpoint_felix3.arreferenceimage"
+    },
+    {
+      "filename" : "airpoint_goofyTwo.arreferenceimage"
+    },
+    {
+      "filename" : "airpoint_lenti1.arreferenceimage"
+    },
+    {
+      "filename" : "airpoint_mickeyOrange2.arreferenceimage"
+    },
+    {
+      "filename" : "airpoint_rickTwo.arreferenceimage"
+    }
+  ]
+}

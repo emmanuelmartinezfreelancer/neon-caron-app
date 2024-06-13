@@ -1,0 +1,77 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "celebrities2_aerosmith.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities2_aoki-2.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities2_aoki-3.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities2_beatles.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities2_daddy-1.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities2_daddy-2.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities2_daddy-3.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities2_daddy-4.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities2_davidg.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities2_diablo.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities2_garbage.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities2_hawk.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities2_hombres-g-1.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities2_hombres-g-2.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities2_hombres-g-3.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities2_hombres-g-4.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities2_mahome.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities2_maluma.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities2_sangre.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities2_trevi2.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities2_trevi3.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities2_yanni.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities2_yuri.arreferenceimage"
+    }
+  ]
+}

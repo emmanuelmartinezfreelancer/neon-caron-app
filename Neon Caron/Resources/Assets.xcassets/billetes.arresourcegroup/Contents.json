@@ -1,0 +1,29 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "billetes_amazonDollar.arreferenceimage"
+    },
+    {
+      "filename" : "billetes_billeteCien.arreferenceimage"
+    },
+    {
+      "filename" : "billetes_billeteMil.arreferenceimage"
+    },
+    {
+      "filename" : "billetes_fiveDollars.arreferenceimage"
+    },
+    {
+      "filename" : "billetes_oneDollar.arreferenceimage"
+    },
+    {
+      "filename" : "billetes_oneRealDollar.arreferenceimage"
+    },
+    {
+      "filename" : "billetes_twoDollars.arreferenceimage"
+    }
+  ]
+}

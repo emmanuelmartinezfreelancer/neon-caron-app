@@ -1,0 +1,32 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "muros_daft.arreferenceimage"
+    },
+    {
+      "filename" : "muros_donaldMuros.arreferenceimage"
+    },
+    {
+      "filename" : "muros_dongato.arreferenceimage"
+    },
+    {
+      "filename" : "muros_mickeyCar.arreferenceimage"
+    },
+    {
+      "filename" : "muros_mickeyGreen.arreferenceimage"
+    },
+    {
+      "filename" : "muros_mickeyMinnie.arreferenceimage"
+    },
+    {
+      "filename" : "muros_mickeyMuros.arreferenceimage"
+    },
+    {
+      "filename" : "muros_rickOne.arreferenceimage"
+    }
+  ]
+}

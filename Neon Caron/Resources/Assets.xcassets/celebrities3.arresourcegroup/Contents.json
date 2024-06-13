@@ -1,0 +1,47 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "celebrities3_guetta1.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities3_guetta2.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities3_guetta3.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities3_josejose1.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities3_josejose2.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities3_josejose4.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities3_link1.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities3_link2.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities3_link3.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities3_motley.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities3_ricky1.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities3_ricky2.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities3_ricky3.arreferenceimage"
+    }
+  ]
+}

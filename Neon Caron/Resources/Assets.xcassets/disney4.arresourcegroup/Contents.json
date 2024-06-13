@@ -1,0 +1,65 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "disney4_bagheera.arreferenceimage"
+    },
+    {
+      "filename" : "disney4_baloo_kids.arreferenceimage"
+    },
+    {
+      "filename" : "disney4_baloo.arreferenceimage"
+    },
+    {
+      "filename" : "disney4_cenicienta.arreferenceimage"
+    },
+    {
+      "filename" : "disney4_daisyLV.arreferenceimage"
+    },
+    {
+      "filename" : "disney4_manyDucks.arreferenceimage"
+    },
+    {
+      "filename" : "disney4_mcDuckLV.arreferenceimage"
+    },
+    {
+      "filename" : "disney4_mcPatoI.arreferenceimage"
+    },
+    {
+      "filename" : "disney4_mcPatoII.arreferenceimage"
+    },
+    {
+      "filename" : "disney4_mcPatoJuego.arreferenceimage"
+    },
+    {
+      "filename" : "disney4_mcPatoStickers.arreferenceimage"
+    },
+    {
+      "filename" : "disney4_merlin.arreferenceimage"
+    },
+    {
+      "filename" : "disney4_mickeyChildishStyle.arreferenceimage"
+    },
+    {
+      "filename" : "disney4_mickRed.arreferenceimage"
+    },
+    {
+      "filename" : "disney4_mickRedTwo.arreferenceimage"
+    },
+    {
+      "filename" : "disney4_neptuno.arreferenceimage"
+    },
+    {
+      "filename" : "disney4_sirenita.arreferenceimage"
+    },
+    {
+      "filename" : "disney4_siresola.arreferenceimage"
+    },
+    {
+      "filename" : "disney4_whitesnowPaint.arreferenceimage"
+    }
+  ]
+}

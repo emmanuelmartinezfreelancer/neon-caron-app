@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "cartoons3_astroboy.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "width" : 1
+  }
+}

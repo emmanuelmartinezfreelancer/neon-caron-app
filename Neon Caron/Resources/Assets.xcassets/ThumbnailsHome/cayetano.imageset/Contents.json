@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "salinas_cayetano.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

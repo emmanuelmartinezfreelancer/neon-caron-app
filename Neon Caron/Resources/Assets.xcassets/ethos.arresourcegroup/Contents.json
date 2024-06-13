@@ -1,0 +1,23 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "ethos_doubleMickey.arreferenceimage"
+    },
+    {
+      "filename" : "ethos_isometric.arreferenceimage"
+    },
+    {
+      "filename" : "ethos_mickeyGreen.arreferenceimage"
+    },
+    {
+      "filename" : "ethos_mickeyOrange.arreferenceimage"
+    },
+    {
+      "filename" : "ethos_mickeyOrange2.arreferenceimage"
+    }
+  ]
+}

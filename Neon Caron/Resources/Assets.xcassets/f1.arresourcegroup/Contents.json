@@ -1,0 +1,56 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "f1_checo.arreferenceimage"
+    },
+    {
+      "filename" : "f1_ernest.arreferenceimage"
+    },
+    {
+      "filename" : "f1_fiti.arreferenceimage"
+    },
+    {
+      "filename" : "f1_hamilton.arreferenceimage"
+    },
+    {
+      "filename" : "f1_mako1.arreferenceimage"
+    },
+    {
+      "filename" : "f1_mako3.arreferenceimage"
+    },
+    {
+      "filename" : "f1_mako4.arreferenceimage"
+    },
+    {
+      "filename" : "f1_mbazul.arreferenceimage"
+    },
+    {
+      "filename" : "f1_mbestrella.arreferenceimage"
+    },
+    {
+      "filename" : "f1_mbverde.arreferenceimage"
+    },
+    {
+      "filename" : "f1_mcb.arreferenceimage"
+    },
+    {
+      "filename" : "f1_racingCar.arreferenceimage"
+    },
+    {
+      "filename" : "f1_redCarOne.arreferenceimage"
+    },
+    {
+      "filename" : "f1_redCarThree.arreferenceimage"
+    },
+    {
+      "filename" : "f1_redCarTwo.arreferenceimage"
+    },
+    {
+      "filename" : "f1_senna.arreferenceimage"
+    }
+  ]
+}

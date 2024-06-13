@@ -1,0 +1,86 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "limited_brutus.arreferenceimage"
+    },
+    {
+      "filename" : "limited_bugs.arreferenceimage"
+    },
+    {
+      "filename" : "limited_bugs2.arreferenceimage"
+    },
+    {
+      "filename" : "limited_dollar.arreferenceimage"
+    },
+    {
+      "filename" : "limited_elastic.arreferenceimage"
+    },
+    {
+      "filename" : "limited_fight.arreferenceimage"
+    },
+    {
+      "filename" : "limited_fridaN.arreferenceimage"
+    },
+    {
+      "filename" : "limited_ghost.arreferenceimage"
+    },
+    {
+      "filename" : "limited_hamilton.arreferenceimage"
+    },
+    {
+      "filename" : "limited_mako4.arreferenceimage"
+    },
+    {
+      "filename" : "limited_mbazul.arreferenceimage"
+    },
+    {
+      "filename" : "limited_mbverde.arreferenceimage"
+    },
+    {
+      "filename" : "limited_mcb.arreferenceimage"
+    },
+    {
+      "filename" : "limited_mickeyAlone.arreferenceimage"
+    },
+    {
+      "filename" : "limited_mickeyBenjamin.arreferenceimage"
+    },
+    {
+      "filename" : "limited_mickeyGreen0.arreferenceimage"
+    },
+    {
+      "filename" : "limited_mickeyGreen2.arreferenceimage"
+    },
+    {
+      "filename" : "limited_mickeyGreen3.arreferenceimage"
+    },
+    {
+      "filename" : "limited_mickeySing.arreferenceimage"
+    },
+    {
+      "filename" : "limited_mickeySing2.arreferenceimage"
+    },
+    {
+      "filename" : "limited_minnieGoofy.arreferenceimage"
+    },
+    {
+      "filename" : "limited_neptuno.arreferenceimage"
+    },
+    {
+      "filename" : "limited_oliva.arreferenceimage"
+    },
+    {
+      "filename" : "limited_steamboat.arreferenceimage"
+    },
+    {
+      "filename" : "limited_twoOldPals.arreferenceimage"
+    },
+    {
+      "filename" : "limited_virgen01.arreferenceimage"
+    }
+  ]
+}

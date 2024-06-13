@@ -1,0 +1,41 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "neon_barro.arreferenceimage"
+    },
+    {
+      "filename" : "neon_calavera.arreferenceimage"
+    },
+    {
+      "filename" : "neon_captainCrunch.arreferenceimage"
+    },
+    {
+      "filename" : "neon_dollar.arreferenceimage"
+    },
+    {
+      "filename" : "neon_elastic.arreferenceimage"
+    },
+    {
+      "filename" : "neon_fernanda.arreferenceimage"
+    },
+    {
+      "filename" : "neon_goesUp.arreferenceimage"
+    },
+    {
+      "filename" : "neon_graffittiPlane.arreferenceimage"
+    },
+    {
+      "filename" : "neon_sabines.arreferenceimage"
+    },
+    {
+      "filename" : "neon_tatoo.arreferenceimage"
+    },
+    {
+      "filename" : "neon_VirgenMagenta.arreferenceimage"
+    }
+  ]
+}

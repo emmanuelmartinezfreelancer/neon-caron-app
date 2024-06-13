@@ -1,0 +1,83 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "disney_blanca.arreferenceimage"
+    },
+    {
+      "filename" : "disney_collageCartoon.arreferenceimage"
+    },
+    {
+      "filename" : "disney_cutTribi.arreferenceimage"
+    },
+    {
+      "filename" : "disney_donaldMuros.arreferenceimage"
+    },
+    {
+      "filename" : "disney_donalds.arreferenceimage"
+    },
+    {
+      "filename" : "disney_donalds2.arreferenceimage"
+    },
+    {
+      "filename" : "disney_donnaldBaby.arreferenceimage"
+    },
+    {
+      "filename" : "disney_mickeyColors.arreferenceimage"
+    },
+    {
+      "filename" : "disney_mickeyGreen0.arreferenceimage"
+    },
+    {
+      "filename" : "disney_mickeyGreen2.arreferenceimage"
+    },
+    {
+      "filename" : "disney_mickeyGreen3.arreferenceimage"
+    },
+    {
+      "filename" : "disney_mickeyMuros.arreferenceimage"
+    },
+    {
+      "filename" : "disney_mickeyRedBlue.arreferenceimage"
+    },
+    {
+      "filename" : "disney_mickeyRedFour.arreferenceimage"
+    },
+    {
+      "filename" : "disney_mickeyRedThree.arreferenceimage"
+    },
+    {
+      "filename" : "disney_mickeys.arreferenceimage"
+    },
+    {
+      "filename" : "disney_mickeys2.arreferenceimage"
+    },
+    {
+      "filename" : "disney_mickeysfaces.arreferenceimage"
+    },
+    {
+      "filename" : "disney_minnie2.arreferenceimage"
+    },
+    {
+      "filename" : "disney_mrRabbit1.arreferenceimage"
+    },
+    {
+      "filename" : "disney_mrRabbit2.arreferenceimage"
+    },
+    {
+      "filename" : "disney_pluto.arreferenceimage"
+    },
+    {
+      "filename" : "disney_pluto2.arreferenceimage"
+    },
+    {
+      "filename" : "disney_screenMickey.arreferenceimage"
+    },
+    {
+      "filename" : "disney_smallMickeys.arreferenceimage"
+    }
+  ]
+}

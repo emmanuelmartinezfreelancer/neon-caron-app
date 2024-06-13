@@ -1,0 +1,14 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "prints2_goku.arreferenceimage"
+    },
+    {
+      "filename" : "prints2_gokuHolo.arreferenceimage"
+    }
+  ]
+}

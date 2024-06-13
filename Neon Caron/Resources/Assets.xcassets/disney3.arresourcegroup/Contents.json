@@ -1,0 +1,80 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "disney3_artIsNoCrime.arreferenceimage"
+    },
+    {
+      "filename" : "disney3_donaldFull.arreferenceimage"
+    },
+    {
+      "filename" : "disney3_donaldRed.arreferenceimage"
+    },
+    {
+      "filename" : "disney3_donalFull2.arreferenceimage"
+    },
+    {
+      "filename" : "disney3_doubleMickey.arreferenceimage"
+    },
+    {
+      "filename" : "disney3_horse.arreferenceimage"
+    },
+    {
+      "filename" : "disney3_isometric.arreferenceimage"
+    },
+    {
+      "filename" : "disney3_mako2.arreferenceimage"
+    },
+    {
+      "filename" : "disney3_mickey.arreferenceimage"
+    },
+    {
+      "filename" : "disney3_mickeyAlone.arreferenceimage"
+    },
+    {
+      "filename" : "disney3_mickeyBenjamin.arreferenceimage"
+    },
+    {
+      "filename" : "disney3_mickeyMinnie.arreferenceimage"
+    },
+    {
+      "filename" : "disney3_mickeyRage.arreferenceimage"
+    },
+    {
+      "filename" : "disney3_mickeySing.arreferenceimage"
+    },
+    {
+      "filename" : "disney3_mickeySing2.arreferenceimage"
+    },
+    {
+      "filename" : "disney3_minnieGoofy.arreferenceimage"
+    },
+    {
+      "filename" : "disney3_mural.arreferenceimage"
+    },
+    {
+      "filename" : "disney3_orangutan.arreferenceimage"
+    },
+    {
+      "filename" : "disney3_pato.arreferenceimage"
+    },
+    {
+      "filename" : "disney3_rayo.arreferenceimage"
+    },
+    {
+      "filename" : "disney3_retroDonald.arreferenceimage"
+    },
+    {
+      "filename" : "disney3_shertrama.arreferenceimage"
+    },
+    {
+      "filename" : "disney3_steamboat.arreferenceimage"
+    },
+    {
+      "filename" : "disney3_twoOldPals.arreferenceimage"
+    }
+  ]
+}

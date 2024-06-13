@@ -1,0 +1,80 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "celebrities_adam.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities_alejandro.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities_balvin.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities_cafe.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities_checo.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities_daft.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities_ernest.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities_fiti.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities_frida.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities_fridaN.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities_golf5.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities_hamilton.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities_jared.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities_juanpa.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities_justin.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities_mao.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities_mao3.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities_newfrida.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities_posterBalvin.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities_rory.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities_ros.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities_senna.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities_seriwaters.arreferenceimage"
+    },
+    {
+      "filename" : "celebrities_waters.arreferenceimage"
+    }
+  ]
+}

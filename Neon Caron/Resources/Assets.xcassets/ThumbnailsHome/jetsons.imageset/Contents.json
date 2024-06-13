@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "prints_jetsons.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

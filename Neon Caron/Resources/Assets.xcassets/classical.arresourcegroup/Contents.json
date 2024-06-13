@@ -1,0 +1,32 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "classical_Christ.arreferenceimage"
+    },
+    {
+      "filename" : "classical_classic1.arreferenceimage"
+    },
+    {
+      "filename" : "classical_classic2.arreferenceimage"
+    },
+    {
+      "filename" : "classical_classic3.arreferenceimage"
+    },
+    {
+      "filename" : "classical_classic4.arreferenceimage"
+    },
+    {
+      "filename" : "classical_hijasLeucipo.arreferenceimage"
+    },
+    {
+      "filename" : "classical_monaLisa.arreferenceimage"
+    },
+    {
+      "filename" : "classical_noesRomero.arreferenceimage"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "seriDonGato.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

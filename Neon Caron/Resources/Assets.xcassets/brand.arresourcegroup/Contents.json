@@ -1,0 +1,65 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "brand_controy.arreferenceimage"
+    },
+    {
+      "filename" : "brand_face.arreferenceimage"
+    },
+    {
+      "filename" : "brand_halls.arreferenceimage"
+    },
+    {
+      "filename" : "brand_hennessy.arreferenceimage"
+    },
+    {
+      "filename" : "brand_hennessyOne.arreferenceimage"
+    },
+    {
+      "filename" : "brand_hennessyTwo.arreferenceimage"
+    },
+    {
+      "filename" : "brand_lenti1.arreferenceimage"
+    },
+    {
+      "filename" : "brand_mako1.arreferenceimage"
+    },
+    {
+      "filename" : "brand_mako3.arreferenceimage"
+    },
+    {
+      "filename" : "brand_mbazul.arreferenceimage"
+    },
+    {
+      "filename" : "brand_mbestrella.arreferenceimage"
+    },
+    {
+      "filename" : "brand_mbverde.arreferenceimage"
+    },
+    {
+      "filename" : "brand_mcb.arreferenceimage"
+    },
+    {
+      "filename" : "brand_mezcal.arreferenceimage"
+    },
+    {
+      "filename" : "brand_Periodico.arreferenceimage"
+    },
+    {
+      "filename" : "brand_racingCar.arreferenceimage"
+    },
+    {
+      "filename" : "brand_redCarOne.arreferenceimage"
+    },
+    {
+      "filename" : "brand_redCarThree.arreferenceimage"
+    },
+    {
+      "filename" : "brand_redCarTwo.arreferenceimage"
+    }
+  ]
+}

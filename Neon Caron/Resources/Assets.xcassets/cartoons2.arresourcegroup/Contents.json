@@ -1,0 +1,83 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "cartoons2_benito.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons2_bugs.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons2_bugs2.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons2_bugs4.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons2_cucho.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons2_darkPopeye.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons2_dongato.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons2_felix2.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons2_felix3.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons2_marvin.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons2_matute.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons2_onlysnoopy.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons2_pajaroLoco.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons2_pica2.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons2_picapiedra.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons2_pinkPanther.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons2_rick.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons2_rickOne.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons2_rickTwo.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons2_rosa.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons2_seriBenito.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons2_seriDonGato.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons2_supersonicos.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons2_tintin1.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons2_tiroLoco.arreferenceimage"
+    }
+  ]
+}

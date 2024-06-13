@@ -1,0 +1,77 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "disney2_conejo.arreferenceimage"
+    },
+    {
+      "filename" : "disney2_daisy.arreferenceimage"
+    },
+    {
+      "filename" : "disney2_goofyOne.arreferenceimage"
+    },
+    {
+      "filename" : "disney2_goofyTwo.arreferenceimage"
+    },
+    {
+      "filename" : "disney2_mickeyAngry.arreferenceimage"
+    },
+    {
+      "filename" : "disney2_mickeyAngry2.arreferenceimage"
+    },
+    {
+      "filename" : "disney2_mickeyAqua.arreferenceimage"
+    },
+    {
+      "filename" : "disney2_mickeyAqua2.arreferenceimage"
+    },
+    {
+      "filename" : "disney2_mickeyCar.arreferenceimage"
+    },
+    {
+      "filename" : "disney2_mickeyCorazones.arreferenceimage"
+    },
+    {
+      "filename" : "disney2_mickeyGreen.arreferenceimage"
+    },
+    {
+      "filename" : "disney2_mickeyOrange.arreferenceimage"
+    },
+    {
+      "filename" : "disney2_mickeyOrange2.arreferenceimage"
+    },
+    {
+      "filename" : "disney2_subMickey1.arreferenceimage"
+    },
+    {
+      "filename" : "disney2_subMickey2.arreferenceimage"
+    },
+    {
+      "filename" : "disney2_subMickey3.arreferenceimage"
+    },
+    {
+      "filename" : "disney2_subMickey4.arreferenceimage"
+    },
+    {
+      "filename" : "disney2_subMickey5.arreferenceimage"
+    },
+    {
+      "filename" : "disney2_subMickey6.arreferenceimage"
+    },
+    {
+      "filename" : "disney2_subMickey7.arreferenceimage"
+    },
+    {
+      "filename" : "disney2_subMickey8.arreferenceimage"
+    },
+    {
+      "filename" : "disney2_subMickey9.arreferenceimage"
+    },
+    {
+      "filename" : "disney2_subMickey10.arreferenceimage"
+    }
+  ]
+}
