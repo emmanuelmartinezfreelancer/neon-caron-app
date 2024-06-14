@@ -39,7 +39,7 @@ Neon Caron is an iOS application that brings augmented reality (AR) experiences 
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/neon-caron-app.git
+    git clone https://github.com/emmanuelmartinezfreelancer/neon-caron-app.git
     ```
 2. Open the project in Xcode:
     ```sh
