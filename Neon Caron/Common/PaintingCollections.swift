@@ -9,6 +9,17 @@ import Foundation
 
 class PaintingCollections {
     
+    let aviones = [
+      "TIPOLITCHENSTEIN": "https://neoncaron.com/video/subasta_TIPO%20LITCHENSTEIN.mp4",
+      "TIPOLITCHENSTEIN2": "https://neoncaron.com/video/subasta_TIPO%20LITCHENSTEIN2.mp4",
+      "TIPOLITCHENSTEIN3": "https://neoncaron.com/video/subasta_TIPO%20LITCHENSTEIN3.mp4",
+      "TIPOLITCHENSTEIN4": "https://neoncaron.com/video/subasta_TIPO%20LITCHENSTEIN4.mp4",
+      "TIPOLITCHENSTEIN5": "https://neoncaron.com/video/subasta_TIPO%20LITCHENSTEIN5.mp4",
+      "popeye": "https://neoncaron.com/video/subasta_popeye.mp4",
+      "oliva": "https://neoncaron.com/video/subasta_oliva.mp4"
+    ]
+
+    
     let classical = [
     //Listo
       "Christ" : "https://neoncaron.com/video/progress/Christ.mp4",
@@ -93,7 +104,10 @@ class PaintingCollections {
     "pedroypablo": "https://neoncaron.com/video/pedroypablo.mp4",
     "crossover": "https://neoncaron.com/video/crossover.mp4",
     "cry2": "https://neoncaron.com/video/cry2.mp4",
-    "cry": "https://neoncaron.com/video/cry.mp4"
+    "cry": "https://neoncaron.com/video/cry.mp4",
+    "tazurbano": "https://neoncaron.com/video/tazurbano.mp4",
+    "pinkPantherWallMoney": "https://neoncaron.com/video/panterabilletes.mp4"
+    
   ]
   
   let cartoons2 = [
@@ -421,6 +435,10 @@ class PaintingCollections {
     "captainCrunch": "https://neoncaron.com/video/progress/captainCrunch.mp4",
     "graffittiPlane": "https://neoncaron.com/video/progress/graffittiPlane.mp4",
     "sabines": "https://neoncaron.com/video/progress/sabines.mp4",
+    "monalisa1" : "https://neoncaron.com/video/monalisa1.mp4",
+    "monalisa2" : "https://neoncaron.com/video/monalisa2.mp4",
+    "monalisa3" : "https://neoncaron.com/video/monalisa3.mp4",
+    "monalisa4" : "https://neoncaron.com/video/monalisa4.mp4",
     
   ]
   
@@ -479,7 +497,9 @@ class PaintingCollections {
     
     let salinas = [
       "cayetano": "https://neoncaron.com/video/cayetano.mp4",
-      "rebecaPrimos": "https://neoncaron.com/video/rebecaPrimos.mp4"
+      "rebecaPrimos": "https://neoncaron.com/video/rebecaPrimos.mp4",
+      "UncleRichie": "https://neoncaron.com/video/tios2.mp4",
+      "Ninfa": "https://neoncaron.com/video/tios2.mp4", 
     ]
   
   let urbana = [
@@ -531,6 +551,7 @@ class PaintingCollections {
       "gokuHolo": "https://neoncaron.com/video/gokuPrint.mp4",
     ]
     
+    /*
     let billetes = [
     "billeteMil": "https://neoncaron.com/video/billete_1000.mp4",
     "billeteCien": "https://neoncaron.com/video/billete_100.mp4",
@@ -538,14 +559,28 @@ class PaintingCollections {
     "fiveDollars": "https://neoncaron.com/video/fiveDollars.mp4",
     "twoDollars": "https://neoncaron.com/video/twoDollars.mp4",
     "oneDollar": "https://neoncaron.com/video/dollar_fighter2.mp4",
-    "amazonDollar": "https://neoncaron.com/video/billeteAmazon.mp4"
+    "amazonDollar": "https://neoncaron.com/video/billeteAmazon.mp4",
+    "tioSalinas": "https://neoncaron.com/video/billetetioSalinas.mp4"
+    ] */
+    
+    let billetes = [
+      "billeteMil": "https://neoncaron.com/video/billete_1000.mp4",
+      "billeteCien": "https://neoncaron.com/video/billete_100.mp4",
+      "oneRealDollar": "https://neoncaron.com/video/one_dollar.mp4",
+      "fiveDollars": "https://neoncaron.com/video/fiveDollars.mp4",
+      "twoDollars": "https://neoncaron.com/video/twoDollars.mp4",
+      "oneDollar": "https://neoncaron.com/video/dollar_fighter2.mp4",
+      "amazonDollar": "https://neoncaron.com/video/billeteAmazon.mp4",
+      "tioSalinas": "https://neoncaron.com/video/billetetioSalinas.mp4",
+      "aladin1": "https://neoncaron.com/video/billetes_aladdin1.mp4",
+      "aladin2": "https://neoncaron.com/video/billetes_aladdin2.mp4",
+      "panteraRosa": "https://neoncaron.com/video/panterabilletes.mp4"
     ]
     
     let interventions = [
         "burnsToxic": "https://neoncaron.com/video/progress/burnsToxic.mp4",
         "disneyCastle": "https://neoncaron.com/video/progress/disneyCastle.mp4",
         "gucciDaisy": "https://neoncaron.com/video/progress/gucciDaisy.mp4",
-        
         "hercules": "https://neoncaron.com/video/progress/hercules.mp4",
         "whitesnowI": "https://neoncaron.com/video/whitesnowI.mp4",
         "whitesnowII": "https://neoncaron.com/video/whitesnowII.mp4",
@@ -556,8 +591,33 @@ class PaintingCollections {
         "redBaron": "https://neoncaron.com/video/redBaron.mp4",
         
         ]
+    
+    let algoritmicaintima = [
+        "homeroCTRL" : "https://neoncaron.com/video/homeroCTRL.mp4"
+    ]
+    
+    let legacy = [
+        "batmanAmarillo": "https://neoncaron.com/video/LegacyStore_batman3.mp4",
+        "classic2Legacy": "https://neoncaron.com/video/classic2.mp4",
+        "dayse": "https://neoncaron.com/video/daisyLV.mp4",
+        "fridaRosaVerde": "https://neoncaron.com/video/LegacyStore_frida1.mp4",
+        "mcpatoLegacy": "https://neoncaron.com/video/mcpatoLV.mp4",
+        "monaBLAM": "https://neoncaron.com/video/legacystore_Mona1.mp4",
+        "monaDior": "https://neoncaron.com/video/legacystore_mona10.mp4",
+        "monaGoyard": "https://neoncaron.com/video/legacystore_mona11.mp4",
+        "monaBIFF": "https://neoncaron.com/video/legacystore_Mona4.mp4",
+        "monaBalenciaga": "https://neoncaron.com/video/legacystore_mona9.mp4",
+        "monaABC": "https://neoncaron.com/video/monalisa1.mp4",
+        "monalisaLentes": "https://neoncaron.com/video/monalisa2.mp4",
+        "monalisaGato": "https://neoncaron.com/video/monalisa3.mp4",
+        "supermanLegacy": "https://neoncaron.com/video/LegacyStore_superman2.mp4",
+    ]
+
   
   let categoryNames = [
+    Category(name: "aviones", image: "avionesThumbnail", displayName: "Aviones"),
+    Category(name: "legacy", image: "legacyStore", displayName: "Legacy Store"),
+    Category(name: "algoritmicaintima", image: "logoAI", displayName: "Algorítmica Íntima"),
     Category(name: "classical", image: "noesromero", displayName: "Classical"),
     Category(name: "interventions", image: "disneyCastle", displayName: "Interventions"),
     Category(name: "billetes", image: "amazonDollar", displayName: "Billetes"),
@@ -580,16 +640,13 @@ class PaintingCollections {
     Category(name: "cartoons2", image: "matute", displayName: "Cartoons 2"),
     Category(name: "cartoons3", image: "brutus", displayName: "Cartoons 3"),
     Category(name: "brand", image: "Periodico", displayName: "Brands"),
-    Category(name: "salinas", image: "cayetano", displayName: "Salinas"),
-    
-//    Category(name: "aston", image: "redCarThree", displayName: ""),
-//    Category(name: "balvin", image: "posterBalvin", displayName: ""),
-//    Category(name: "controy", image: "controy", displayName: ""),
-//    Category(name: "ethos", image: "mickeyGreen", displayName: ""),
-//    Category(name: "f1", image: "redCarThree", displayName: ""),
+    Category(name: "salinas", image: "cayetano", displayName: "Salinas")
   ]
   
   lazy var collections = [
+    "aviones" : aviones,
+    "legacy" : legacy,
+    "algoritmicaintima" : algoritmicaintima,
     "classical": classical,
     "interventions": interventions,
     "artpoint": artpoint,

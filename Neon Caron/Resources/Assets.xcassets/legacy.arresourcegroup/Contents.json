@@ -1,0 +1,50 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "legacy_batmanAmarillo.arreferenceimage"
+    },
+    {
+      "filename" : "legacy_classic2Legacy.arreferenceimage"
+    },
+    {
+      "filename" : "legacy_dayse.arreferenceimage"
+    },
+    {
+      "filename" : "legacy_fridaRosaVerde.arreferenceimage"
+    },
+    {
+      "filename" : "legacy_mcpatoLegacy.arreferenceimage"
+    },
+    {
+      "filename" : "legacy_monaABC.arreferenceimage"
+    },
+    {
+      "filename" : "legacy_monaBalenciaga.arreferenceimage"
+    },
+    {
+      "filename" : "legacy_monaBIFF.arreferenceimage"
+    },
+    {
+      "filename" : "legacy_monaBLAM.arreferenceimage"
+    },
+    {
+      "filename" : "legacy_monaDior.arreferenceimage"
+    },
+    {
+      "filename" : "legacy_monaGoyard.arreferenceimage"
+    },
+    {
+      "filename" : "legacy_monalisaGato.arreferenceimage"
+    },
+    {
+      "filename" : "legacy_monalisaLentes.arreferenceimage"
+    },
+    {
+      "filename" : "legacy_supermanLegacy.arreferenceimage"
+    }
+  ]
+}

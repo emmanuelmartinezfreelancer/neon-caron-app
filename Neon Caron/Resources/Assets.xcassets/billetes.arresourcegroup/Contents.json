@@ -5,6 +5,12 @@
   },
   "resources" : [
     {
+      "filename" : "billetes_aladin1.arreferenceimage"
+    },
+    {
+      "filename" : "billetes_aladin2.arreferenceimage"
+    },
+    {
       "filename" : "billetes_amazonDollar.arreferenceimage"
     },
     {
@@ -21,6 +27,12 @@
     },
     {
       "filename" : "billetes_oneRealDollar.arreferenceimage"
+    },
+    {
+      "filename" : "billetes_panteraRosa.arreferenceimage"
+    },
+    {
+      "filename" : "billetes_tioSalinas.arreferenceimage"
     },
     {
       "filename" : "billetes_twoDollars.arreferenceimage"

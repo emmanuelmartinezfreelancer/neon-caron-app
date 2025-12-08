@@ -1,0 +1,29 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "aviones_oliva.arreferenceimage"
+    },
+    {
+      "filename" : "aviones_popeye.arreferenceimage"
+    },
+    {
+      "filename" : "aviones_TIPOLITCHENSTEIN.arreferenceimage"
+    },
+    {
+      "filename" : "aviones_TIPOLITCHENSTEIN2.arreferenceimage"
+    },
+    {
+      "filename" : "aviones_TIPOLITCHENSTEIN3.arreferenceimage"
+    },
+    {
+      "filename" : "aviones_TIPOLITCHENSTEIN4.arreferenceimage"
+    },
+    {
+      "filename" : "aviones_TIPOLITCHENSTEIN5.arreferenceimage"
+    }
+  ]
+}
