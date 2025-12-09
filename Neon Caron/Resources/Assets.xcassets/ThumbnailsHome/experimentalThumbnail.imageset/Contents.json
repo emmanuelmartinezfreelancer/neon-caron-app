@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Proyecto nuevo.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

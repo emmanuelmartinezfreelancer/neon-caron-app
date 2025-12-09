@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "experimental_taz.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "width" : 1
+  }
+}

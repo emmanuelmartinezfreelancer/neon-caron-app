@@ -1,0 +1,17 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "experimental_oliva.arreferenceimage"
+    },
+    {
+      "filename" : "experimental_popeye.arreferenceimage"
+    },
+    {
+      "filename" : "experimental_taz.arreferenceimage"
+    }
+  ]
+}

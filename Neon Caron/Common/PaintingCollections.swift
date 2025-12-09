@@ -612,6 +612,12 @@ class PaintingCollections {
         "monalisaGato": "https://neoncaron.com/video/monalisa3.mp4",
         "supermanLegacy": "https://neoncaron.com/video/LegacyStore_superman2.mp4",
     ]
+    
+    let experimental = [
+        "oliva": "https://neoncaron.com/video/progress/trans2.mov",
+        "popeye": "https://neoncaron.com/video/progress/trans2.mov",
+        "taz": "https://neoncaron.com/video/progress/taz.mov",
+    ]
 
   
   let categoryNames = [
@@ -640,7 +646,8 @@ class PaintingCollections {
     Category(name: "cartoons2", image: "matute", displayName: "Cartoons 2"),
     Category(name: "cartoons3", image: "brutus", displayName: "Cartoons 3"),
     Category(name: "brand", image: "Periodico", displayName: "Brands"),
-    Category(name: "salinas", image: "cayetano", displayName: "Salinas")
+    Category(name: "salinas", image: "cayetano", displayName: "Salinas"),
+    Category(name: "experimental", image: "experimentalThumbnail", displayName: "Experimental")
   ]
   
   lazy var collections = [
@@ -675,6 +682,7 @@ class PaintingCollections {
     "prints": prints,
     "prints2": prints2,
     "billetes" : billetes,
+    "experimental": experimental,
   ]
   
   func makeJSON() {
