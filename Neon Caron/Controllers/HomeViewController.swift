@@ -30,20 +30,22 @@ class HomeViewController: UIViewController {
     // Configurar el saludo (por ahora estático, en Fase 2 cambiará según login)
     greetingLabel.text = "Hello, stranger"
     
+    // Hacer el label táctil para navegar al login
+    let tapGesture = UITapGestureRecognizer(target: self, action: #selector(greetingLabelTapped))
+    greetingLabel.isUserInteractionEnabled = true
+    greetingLabel.addGestureRecognizer(tapGesture)
+    
     // El botón ya está configurado en el Storyboard, pero podemos personalizarlo aquí si es necesario
     // createCollectionButton ya tiene el título "Create Collection +" desde el Storyboard
   }
   
+  @objc private func greetingLabelTapped() {
+    performSegue(withIdentifier: "HomeToLogin", sender: self)
+  }
+  
   @IBAction func createCollectionTapped(_ sender: UIButton) {
-    // Por ahora, mostrar una alerta temporal
-    // En fases posteriores, abriremos la pantalla de crear colección
-    let alert = UIAlertController(
-      title: "Create Collection",
-      message: "Esta funcionalidad estará disponible pronto!",
-      preferredStyle: .alert
-    )
-    alert.addAction(UIAlertAction(title: "OK", style: .default))
-    present(alert, animated: true)
+    // Navegar al LoginViewController cuando se toca "Create Collection +"
+    performSegue(withIdentifier: "HomeToLogin", sender: self)
   }
   
   private func configureTableView() {
@@ -55,8 +57,13 @@ class HomeViewController: UIViewController {
   }
   
   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-    let destinationVC = segue.destination as! ViewController
-    destinationVC.collectionName = collectionName
+    // Solo preparar datos si es el segue hacia AR ViewController
+    if segue.identifier == "HomeToAR" {
+      if let destinationVC = segue.destination as? ViewController {
+        destinationVC.collectionName = collectionName
+      }
+    }
+    // Para otros segues (como HomeToLogin), no necesitamos preparar datos
   }
 }
 

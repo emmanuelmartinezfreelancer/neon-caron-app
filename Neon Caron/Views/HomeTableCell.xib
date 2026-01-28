@@ -36,7 +36,7 @@
                 <constraint firstItem="R5a-av-YBO" firstAttribute="leading" secondItem="swH-ka-NsD" secondAttribute="trailing" constant="12" id="Pja-Ey-WOU"/>
                 <constraint firstItem="swH-ka-NsD" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="12" id="RRt-fP-iuo"/>
                 <constraint firstItem="swH-ka-NsD" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="12" id="bbi-4u-U47"/>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="swH-ka-NsD" secondAttribute="bottom" constant="12" id="xtr-G2-XWk"/>
+                <constraint firstItem="iN0-l3-epB" firstAttribute="bottom" secondItem="swH-ka-NsD" secondAttribute="bottom" constant="12" priority="999" id="xtr-G2-XWk"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>

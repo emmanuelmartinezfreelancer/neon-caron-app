@@ -101,6 +101,7 @@
                         <outlet property="greetingLabel" destination="Greet-Lbl" id="Greet-Outlet"/>
                         <outlet property="createCollectionButton" destination="Create-Btn" id="Create-Outlet"/>
                         <segue destination="BV1-FR-VrT" kind="show" identifier="HomeToAR" id="ePT-GJ-wyu"/>
+                        <segue destination="Login-VC" kind="show" identifier="HomeToLogin" id="Home-Login-Segue"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hnS-Gr-cnl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -136,6 +137,128 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="702.89855072463774" y="123.88392857142857"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="Login-Scene">
+            <objects>
+                <viewController id="Login-VC" customClass="LoginViewController" customModule="Neon_Caron" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Login-View">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Login-Scroll">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Login-Content">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="600"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Access your account" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Login-Title">
+                                                <rect key="frame" x="20" y="40" width="374" height="36"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gmail-Btn">
+                                                <rect key="frame" x="20" y="100" width="374" height="50"/>
+                                                <state key="normal" title="Sign in with Gmail"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Sign in with Gmail">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="17"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="gmailSignInTapped:" destination="Login-VC" eventType="touchUpInside" id="Gmail-Act"/>
+                                                </connections>
+                                            </button>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Email-TF">
+                                                <rect key="frame" x="20" y="180" width="374" height="34"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="emailAddress" autocapitalizationType="none"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Password-TF">
+                                                <rect key="frame" x="20" y="230" width="374" height="34"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Login-Btn">
+                                                <rect key="frame" x="20" y="290" width="374" height="44"/>
+                                                <state key="normal" title="Log In"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Log In">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="17"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="loginButtonTapped:" destination="Login-VC" eventType="touchUpInside" id="Login-Act"/>
+                                                </connections>
+                                            </button>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Separator-View">
+                                                <rect key="frame" x="20" y="360" width="374" height="1"/>
+                                                <color key="backgroundColor" systemColor="separatorColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="1" id="Sep-Height"/>
+                                                </constraints>
+                                            </view>
+                                            <label opaque="NO" userInteractionEnabled="YES" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don't have an account? Sign up for create custom collections." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SignUp-Lbl">
+                                                <rect key="frame" x="20" y="390" width="374" height="60"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <color key="textColor" systemColor="linkColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="Login-Title" firstAttribute="leading" secondItem="Login-Content" secondAttribute="leading" constant="20" id="Title-Lead"/>
+                                            <constraint firstItem="Login-Title" firstAttribute="trailing" secondItem="Login-Content" secondAttribute="trailing" constant="-20" id="Title-Trail"/>
+                                            <constraint firstItem="Login-Title" firstAttribute="top" secondItem="Login-Content" secondAttribute="top" constant="40" id="Title-Top"/>
+                                            <constraint firstItem="Gmail-Btn" firstAttribute="leading" secondItem="Login-Content" secondAttribute="leading" constant="20" id="Gmail-Lead"/>
+                                            <constraint firstItem="Gmail-Btn" firstAttribute="trailing" secondItem="Login-Content" secondAttribute="trailing" constant="-20" id="Gmail-Trail"/>
+                                            <constraint firstItem="Gmail-Btn" firstAttribute="top" secondItem="Login-Title" secondAttribute="bottom" constant="24" id="Gmail-Top"/>
+                                            <constraint firstItem="Email-TF" firstAttribute="leading" secondItem="Login-Content" secondAttribute="leading" constant="20" id="Email-Lead"/>
+                                            <constraint firstItem="Email-TF" firstAttribute="trailing" secondItem="Login-Content" secondAttribute="trailing" constant="-20" id="Email-Trail"/>
+                                            <constraint firstItem="Email-TF" firstAttribute="top" secondItem="Gmail-Btn" secondAttribute="bottom" constant="30" id="Email-Top"/>
+                                            <constraint firstItem="Password-TF" firstAttribute="leading" secondItem="Login-Content" secondAttribute="leading" constant="20" id="Pass-Lead"/>
+                                            <constraint firstItem="Password-TF" firstAttribute="trailing" secondItem="Login-Content" secondAttribute="trailing" constant="-20" id="Pass-Trail"/>
+                                            <constraint firstItem="Password-TF" firstAttribute="top" secondItem="Email-TF" secondAttribute="bottom" constant="16" id="Pass-Top"/>
+                                            <constraint firstItem="Login-Btn" firstAttribute="leading" secondItem="Login-Content" secondAttribute="leading" constant="20" id="Login-Lead"/>
+                                            <constraint firstItem="Login-Btn" firstAttribute="trailing" secondItem="Login-Content" secondAttribute="trailing" constant="-20" id="Login-Trail"/>
+                                            <constraint firstItem="Login-Btn" firstAttribute="top" secondItem="Password-TF" secondAttribute="bottom" constant="26" id="Login-Top"/>
+                                            <constraint firstItem="Separator-View" firstAttribute="leading" secondItem="Login-Content" secondAttribute="leading" constant="20" id="Sep-Lead"/>
+                                            <constraint firstItem="Separator-View" firstAttribute="trailing" secondItem="Login-Content" secondAttribute="trailing" constant="-20" id="Sep-Trail"/>
+                                            <constraint firstItem="Separator-View" firstAttribute="top" secondItem="Login-Btn" secondAttribute="bottom" constant="26" id="Sep-Top"/>
+                                            <constraint firstItem="SignUp-Lbl" firstAttribute="leading" secondItem="Login-Content" secondAttribute="leading" constant="20" id="SignUp-Lead"/>
+                                            <constraint firstItem="SignUp-Lbl" firstAttribute="trailing" secondItem="Login-Content" secondAttribute="trailing" constant="-20" id="SignUp-Trail"/>
+                                            <constraint firstItem="SignUp-Lbl" firstAttribute="top" secondItem="Separator-View" secondAttribute="bottom" constant="29" id="SignUp-Top"/>
+                                            <constraint firstAttribute="bottom" secondItem="SignUp-Lbl" secondAttribute="bottom" constant="150" id="Content-Bottom"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Login-Content" firstAttribute="width" secondItem="Login-Scroll" secondAttribute="width" id="Content-Width"/>
+                                    <constraint firstItem="Login-Content" firstAttribute="top" secondItem="Login-Scroll" secondAttribute="top" id="Content-Top"/>
+                                    <constraint firstItem="Login-Content" firstAttribute="leading" secondItem="Login-Scroll" secondAttribute="leading" id="Content-Lead"/>
+                                    <constraint firstItem="Login-Content" firstAttribute="trailing" secondItem="Login-Scroll" secondAttribute="trailing" id="Content-Trail"/>
+                                    <constraint firstItem="Login-Content" firstAttribute="bottom" secondItem="Login-Scroll" secondAttribute="bottom" id="Content-Bottom-Scroll"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Login-Safe"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Login-Scroll" firstAttribute="leading" secondItem="Login-Safe" secondAttribute="leading" id="Scroll-Lead"/>
+                            <constraint firstItem="Login-Scroll" firstAttribute="trailing" secondItem="Login-Safe" secondAttribute="trailing" id="Scroll-Trail"/>
+                            <constraint firstItem="Login-Scroll" firstAttribute="top" secondItem="Login-Safe" secondAttribute="top" id="Scroll-Top"/>
+                            <constraint firstItem="Login-Scroll" firstAttribute="bottom" secondItem="Login-Safe" secondAttribute="bottom" id="Scroll-Bottom"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Login-Nav"/>
+                    <connections>
+                        <outlet property="emailTextField" destination="Email-TF" id="Email-Outlet"/>
+                        <outlet property="gmailSignInButton" destination="Gmail-Btn" id="Gmail-Outlet"/>
+                        <outlet property="loginButton" destination="Login-Btn" id="Login-Outlet"/>
+                        <outlet property="passwordTextField" destination="Password-TF" id="Password-Outlet"/>
+                        <outlet property="signUpLabel" destination="SignUp-Lbl" id="SignUp-Outlet"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Login-First" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1200" y="123.88392857142857"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="QJ2-lo-XGb">

@@ -22,6 +22,7 @@
 		72A439BC253261F1008FFB9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72A439BB253261F1008FFB9D /* Assets.xcassets */; };
 		72A439BF253261F1008FFB9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72A439BD253261F1008FFB9D /* LaunchScreen.storyboard */; };
 		72A439CF253266C6008FFB9D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A439CE253266C6008FFB9D /* HomeViewController.swift */; };
+		72A439D1253266C7008FFB9D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A439D0253266C7008FFB9D /* LoginViewController.swift */; };
 		72E200172575ACD800C77EAD /* CachingPlayerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E200162575ACD800C77EAD /* CachingPlayerItem.swift */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,7 @@
 		72A439BE253261F1008FFB9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72A439C0253261F1008FFB9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72A439CE253266C6008FFB9D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		72A439D0253266C7008FFB9D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		72E200162575ACD800C77EAD /* CachingPlayerItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachingPlayerItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,6 +107,7 @@
 			children = (
 				72A439B6253261F1008FFB9D /* ViewController.swift */,
 				72A439CE253266C6008FFB9D /* HomeViewController.swift */,
+				72A439D0253266C7008FFB9D /* LoginViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 				7260B2E725ED58E800F048F1 /* CodableHelper.swift in Sources */,
 				72723F6F26008125002E9EF0 /* SDFileUtils.swift in Sources */,
 				72A439CF253266C6008FFB9D /* HomeViewController.swift in Sources */,
+				72A439D1253266C7008FFB9D /* LoginViewController.swift in Sources */,
 				72A439B7253261F1008FFB9D /* ViewController.swift in Sources */,
 				7260B2E325ED493800F048F1 /* HomeTableCell.swift in Sources */,
 				72723F762600A9CE002E9EF0 /* SDFileUtils+FileLocation.swift in Sources */,
@@ -383,7 +387,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1.5;
+				MARKETING_VERSION = 2.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.neon.caron.AR2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -405,7 +409,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1.5;
+				MARKETING_VERSION = 2.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.neon.caron.AR2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
