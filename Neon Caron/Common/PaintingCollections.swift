@@ -594,9 +594,11 @@ class PaintingCollections {
         
         ]
     
+    /*
     let algoritmicaintima = [
         "homeroCTRL" : "https://neoncaron.com/video/homeroCTRL.mp4"
     ]
+    */
     
     let legacy = [
         "batmanAmarillo": "https://neoncaron.com/video/LegacyStore_batman3.mp4",
@@ -620,10 +622,10 @@ class PaintingCollections {
         "popeye": "https://neoncaron.com/video/progress/trans2.mov",
         "taz": "https://neoncaron.com/video/progress/taz.mov",
         "sonicoSupersonicos": "https://neoncaron.com/video/tazos_papaSupersonicos.mp4",
-        "mamaSupersonicos": "https://neoncaron.com/video/tazos_mamaSupersonicos.mp4",
-        "hijaSupersonicos": "https://neoncaron.com/video/tazos_hijaSupersonicos.mp4",
+        "ultraSupersonicos": "https://neoncaron.com/video/tazos_mamaSupersonicos.mp4",
+        "luceroSupersonicos": "https://neoncaron.com/video/tazos_hijaSupersonicos.mp4",
         "cometinSupersonicos": "https://neoncaron.com/video/tazos_hijoSupersonicos.mp4",
-        "perroSupersonicos": "https://neoncaron.com/video/tazos_perroSupersonicos.mp4",
+        "jupiterSupersonicos": "https://neoncaron.com/video/tazos_perroSupersonicos.mp4",
         "robotinasSupersonicos": "https://neoncaron.com/video/tazos_robotinasSupersonicos.mp4",
     ]
     
@@ -686,7 +688,7 @@ class PaintingCollections {
   let categoryNames = [
     Category(name: "aviones", image: "avionesThumbnail", displayName: "Aviones"),
     Category(name: "legacy", image: "legacyStore", displayName: "Legacy Store"),
-    Category(name: "algoritmicaintima", image: "logoAI", displayName: "Algorítmica Íntima"),
+    //Category(name: "algoritmicaintima", image: "logoAI", displayName: "Algorítmica Íntima"),
     Category(name: "classical", image: "noesromero", displayName: "Classical"),
     Category(name: "interventions", image: "disneyCastle", displayName: "Interventions"),
     Category(name: "billetes", image: "amazonDollar", displayName: "Billetes"),
@@ -720,7 +722,7 @@ class PaintingCollections {
   lazy var collections = [
     "aviones" : aviones,
     "legacy" : legacy,
-    "algoritmicaintima" : algoritmicaintima,
+    //"algoritmicaintima" : algoritmicaintima,
     "classical": classical,
     "interventions": interventions,
     "artpoint": artpoint,

@@ -5,13 +5,31 @@
   },
   "resources" : [
     {
+      "filename" : "experimental_cometinSupersonicos.arreferenceimage"
+    },
+    {
+      "filename" : "experimental_jupiterSupersonicos.arreferenceimage"
+    },
+    {
+      "filename" : "experimental_luceroSupersonicos.arreferenceimage"
+    },
+    {
       "filename" : "experimental_oliva.arreferenceimage"
     },
     {
       "filename" : "experimental_popeye.arreferenceimage"
     },
     {
+      "filename" : "experimental_robotinasSupersonicos.arreferenceimage"
+    },
+    {
+      "filename" : "experimental_sonicoSupersonicos.arreferenceimage"
+    },
+    {
       "filename" : "experimental_taz.arreferenceimage"
+    },
+    {
+      "filename" : "experimental_ultraSupersonicos.arreferenceimage"
     }
   ]
 }
