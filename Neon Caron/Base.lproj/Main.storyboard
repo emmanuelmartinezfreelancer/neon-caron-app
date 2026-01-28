@@ -22,18 +22,47 @@
                                 <color key="sectionIndexBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="sectionIndexTrackingBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <view key="tableHeaderView" contentMode="scaleToFill" id="cuZ-n9-Vb0">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="154"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="204"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hdr-Tp-Cont">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello, stranger" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Greet-Lbl">
+                                                    <rect key="frame" x="20" y="15" width="140" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Create-Btn">
+                                                    <rect key="frame" x="254" y="10" width="160" height="30"/>
+                                                    <state key="normal" title="Create Collection +"/>
+                                                    <buttonConfiguration key="configuration" style="plain" title="Create Collection +">
+                                                        <fontDescription key="titleFontDescription" type="system" pointSize="17"/>
+                                                    </buttonConfiguration>
+                                                    <connections>
+                                                        <action selector="createCollectionTapped:" destination="c06-G9-rEE" eventType="touchUpInside" id="Create-Act"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstItem="Greet-Lbl" firstAttribute="leading" secondItem="Hdr-Tp-Cont" secondAttribute="leading" constant="30" id="Greet-Lead"/>
+                                                <constraint firstItem="Create-Btn" firstAttribute="trailing" secondItem="Hdr-Tp-Cont" secondAttribute="trailing" constant="-20" id="Create-Trail"/>
+                                                <constraint firstAttribute="height" constant="50" id="Hdr-Height"/>
+                                                <constraint firstItem="Greet-Lbl" firstAttribute="centerY" secondItem="Hdr-Tp-Cont" secondAttribute="centerY" id="Greet-CenterY"/>
+                                                <constraint firstItem="Create-Btn" firstAttribute="centerY" secondItem="Hdr-Tp-Cont" secondAttribute="centerY" id="Create-CenterY"/>
+                                            </constraints>
+                                        </view>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logoFirma" translatesAutoresizingMaskIntoConstraints="NO" id="Loq-Bd-yla">
-                                            <rect key="frame" x="113" y="0.0" width="188" height="100"/>
+                                            <rect key="frame" x="113" y="50" width="188" height="100"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="188" id="XZp-JR-5kp"/>
                                                 <constraint firstAttribute="height" constant="100" id="ePx-ko-Ar1"/>
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select a collection to start the Augmented ART" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DlV-bY-tEo">
-                                            <rect key="frame" x="82" y="101" width="250" height="51"/>
+                                            <rect key="frame" x="82" y="151" width="250" height="51"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="250" id="aqx-DM-xbl"/>
                                                 <constraint firstAttribute="height" constant="51" id="eaJ-mM-Zpf"/>
@@ -45,11 +74,14 @@
                                     </subviews>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <constraints>
+                                        <constraint firstItem="Hdr-Tp-Cont" firstAttribute="top" secondItem="cuZ-n9-Vb0" secondAttribute="top" id="Hdr-Top"/>
+                                        <constraint firstItem="Hdr-Tp-Cont" firstAttribute="leading" secondItem="cuZ-n9-Vb0" secondAttribute="leading" id="Hdr-Lead"/>
+                                        <constraint firstItem="Hdr-Tp-Cont" firstAttribute="trailing" secondItem="cuZ-n9-Vb0" secondAttribute="trailing" id="Hdr-Trail"/>
+                                        <constraint firstItem="Loq-Bd-yla" firstAttribute="top" secondItem="Hdr-Tp-Cont" secondAttribute="bottom" id="Logo-Top"/>
                                         <constraint firstAttribute="bottom" secondItem="DlV-bY-tEo" secondAttribute="bottom" constant="2" id="BdY-uO-RQo"/>
                                         <constraint firstItem="DlV-bY-tEo" firstAttribute="centerX" secondItem="cuZ-n9-Vb0" secondAttribute="centerX" id="LD5-0F-alT"/>
                                         <constraint firstItem="Loq-Bd-yla" firstAttribute="centerX" secondItem="cuZ-n9-Vb0" secondAttribute="centerX" id="PNk-js-7Ac"/>
                                         <constraint firstItem="DlV-bY-tEo" firstAttribute="top" secondItem="Loq-Bd-yla" secondAttribute="bottom" constant="1" id="U41-rY-Lw6"/>
-                                        <constraint firstItem="Loq-Bd-yla" firstAttribute="top" secondItem="cuZ-n9-Vb0" secondAttribute="top" id="ZXC-Jw-Ddi"/>
                                     </constraints>
                                 </view>
                             </tableView>
@@ -66,6 +98,8 @@
                     <navigationItem key="navigationItem" id="DJW-v4-Mdr"/>
                     <connections>
                         <outlet property="tableView" destination="kC4-MR-8fy" id="i3O-nE-Snv"/>
+                        <outlet property="greetingLabel" destination="Greet-Lbl" id="Greet-Outlet"/>
+                        <outlet property="createCollectionButton" destination="Create-Btn" id="Create-Outlet"/>
                         <segue destination="BV1-FR-VrT" kind="show" identifier="HomeToAR" id="ePT-GJ-wyu"/>
                     </connections>
                 </viewController>
