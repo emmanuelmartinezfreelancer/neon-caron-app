@@ -1,0 +1,29 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "cartoons4_batmanDos.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons4_batmanTres.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons4_batmanUno.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons4_mafiososMarge.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons4_supermanAmarillo.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons4_supermanAzul.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons4_supermanRojo.arreferenceimage"
+    }
+  ]
+}

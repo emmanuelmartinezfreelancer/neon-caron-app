@@ -353,7 +353,8 @@ class PaintingCollections {
     "mickRed" : "https://neoncaron.com/video/mickRedOne.mp4",
     "mickRedTwo" : "https://neoncaron.com/video/mickRedTwo.mp4",
     "mcPatoJuego": "https://maremoto.mx/neoncaron/mcpatoJuego.mp4",
-    "mcPatoStickers": "https://neoncaron.com/video/mcPatoStickers.mp4"
+    "mcPatoStickers": "https://neoncaron.com/video/mcPatoStickers.mp4",
+    "bailejuntos": "https://neoncaron.com/video/mickey3_bailejuntos.mp4"
   ]
   
   let ethos = [
@@ -574,7 +575,8 @@ class PaintingCollections {
       "tioSalinas": "https://neoncaron.com/video/billetetioSalinas.mp4",
       "aladin1": "https://neoncaron.com/video/billetes_aladdin1.mp4",
       "aladin2": "https://neoncaron.com/video/billetes_aladdin2.mp4",
-      "panteraRosa": "https://neoncaron.com/video/panterabilletes.mp4"
+      "panteraRosa": "https://neoncaron.com/video/panterabilletes.mp4",
+      "madameMim": "https://neoncaron.com/video/billetes_madameMim.mp4"
     ]
     
     let interventions = [
@@ -617,6 +619,67 @@ class PaintingCollections {
         "oliva": "https://neoncaron.com/video/progress/trans2.mov",
         "popeye": "https://neoncaron.com/video/progress/trans2.mov",
         "taz": "https://neoncaron.com/video/progress/taz.mov",
+        "sonicoSupersonicos": "https://neoncaron.com/video/tazos_papaSupersonicos.mp4",
+        "mamaSupersonicos": "https://neoncaron.com/video/tazos_mamaSupersonicos.mp4",
+        "hijaSupersonicos": "https://neoncaron.com/video/tazos_hijaSupersonicos.mp4",
+        "cometinSupersonicos": "https://neoncaron.com/video/tazos_hijoSupersonicos.mp4",
+        "perroSupersonicos": "https://neoncaron.com/video/tazos_perroSupersonicos.mp4",
+        "robotinasSupersonicos": "https://neoncaron.com/video/tazos_robotinasSupersonicos.mp4",
+    ]
+    
+    let cartoons4 = [
+        "batmanDos": "https://neoncaron.com/video/Cartoons_Batman2.mp4",
+        "batmanTres": "https://neoncaron.com/video/Cartoons_Batman3.mp4",
+        "batmanUno": "https://neoncaron.com/video/Cartoons_Batman1.mp4",
+        "mafiososMarge": "https://neoncaron.com/video/Cartoons_mafiosos.mp4",
+        "supermanAmarillo": "https://neoncaron.com/video/Cartoons_Supermana3.mp4",
+        "supermanAzul": "https://neoncaron.com/video/Cartoons_Supermana2.mp4",
+        "supermanRojo": "https://neoncaron.com/video/Cartoons_Supermana.mp4",
+    ]
+    
+    let oficina = [
+        "billeteCantinflas": "https://neoncaron.com/video/oficina11.mp4",
+        "billeteSanto": "https://neoncaron.com/video/oficina12.mp4",
+        "burnsToxic": "https://neoncaron.com/video/oficina10.mp4",
+        "casaMerlin": "https://neoncaron.com/video/oficina1.mp4",
+        "castilloDisney": "https://neoncaron.com/video/oficina9.mp4",
+        "cerealDos": "https://neoncaron.com/video/oficina7.mp4",
+        "chapulinColorado": "https://neoncaron.com/video/oficina13.mp4",
+        "gokuMetal": "https://neoncaron.com/video/oficina6.mp4",
+        "herculesRayo": "https://neoncaron.com/video/oficina5.mp4",
+        "jesusCereal": "https://neoncaron.com/video/oficina8.mp4",
+        "maoUno": "https://neoncaron.com/video/oficina4.mp4",
+        "mickeyCorriendo": "https://neoncaron.com/video/oficina2.mp4",
+        "monaBiff": "https://neoncaron.com/video/oficina3.mp4",
+        "monalisaPuntos": "https://neoncaron.com/video/oficina14.mp4",
+    ]
+    
+    let neon3 = [
+        "trumpDos": "https://neoncaron.com/video/Neon3_trump1.mp4",
+        "trumpUno": "https://neoncaron.com/video/Neon3_trump.mp4",
+    ]
+    
+    let monalisa = [
+        "monalisaCatorce": "https://neoncaron.com/video/Monalisa14.mp4",
+        "monalisaDiecinueve": "https://neoncaron.com/video/Monalisa19.mp4",
+        "monalisaDieciocho": "https://neoncaron.com/video/Monalisa18.mp4",
+        "monalisaDieciseis": "https://neoncaron.com/video/Monalisa16.mp4",
+        "monalisaDiecisiete": "https://neoncaron.com/video/Monalisa17.mp4",
+        "monalisaDoce": "https://neoncaron.com/video/Monalisa12.mp4",
+        "monalisaOnce": "https://neoncaron.com/video/Monalisa11.mp4",
+        "monalisaQuince": "https://neoncaron.com/video/Monalisa15.mp4",
+        "monalisaTrece": "https://neoncaron.com/video/Monalisa13.mp4",
+        "monalisaTreinta": "https://neoncaron.com/video/Monalisa30.mp4",
+        "monalisaVeinte": "https://neoncaron.com/video/Monalisa20.mp4",
+        "monalisaVeinticinco": "https://neoncaron.com/video/Monalisa25.mp4",
+        "monalisaVeinticuatro": "https://neoncaron.com/video/Monalisa24.mp4",
+        "monalisaVeintidos": "https://neoncaron.com/video/Monalisa22.mp4",
+        "monalisaVeintinueve": "https://neoncaron.com/video/Monalisa29.mp4",
+        "monalisaVeintiocho": "https://neoncaron.com/video/Monalisa28.mp4",
+        "monalisaVeintiseis": "https://neoncaron.com/video/Monalisa26.mp4",
+        "monalisaVeintisiete": "https://neoncaron.com/video/Monalisa27.mp4",
+        "monalisaVeintitres": "https://neoncaron.com/video/Monalisa23.mp4",
+        "monalisaVeintiuno": "https://neoncaron.com/video/Monalisa21.mp4",
     ]
 
   
@@ -635,6 +698,7 @@ class PaintingCollections {
     Category(name: "artpoint", image: "lenti1", displayName: "Art Point Polanco"),
     Category(name: "neon", image: "fernanda", displayName: "Neon"),
     Category(name: "neon2", image: "virgen01", displayName: "Neon 2"),
+    Category(name: "neon3", image: "neon3TN", displayName: "Neon 3"),
     Category(name: "disney", image: "donalds2", displayName: "Mickey"),
     Category(name: "disney2", image: "daisy", displayName: "Mickey 2"),
     Category(name: "disney3", image: "donalFull2", displayName: "Mickey 3"),
@@ -645,8 +709,11 @@ class PaintingCollections {
     Category(name: "cartoons", image: "cutFelix", displayName: "Cartoons"),
     Category(name: "cartoons2", image: "matute", displayName: "Cartoons 2"),
     Category(name: "cartoons3", image: "brutus", displayName: "Cartoons 3"),
+    Category(name: "cartoons4", image: "cartoons4TN", displayName: "Cartoons 4"),
     Category(name: "brand", image: "Periodico", displayName: "Brands"),
     Category(name: "salinas", image: "cayetano", displayName: "Salinas"),
+    Category(name: "oficina", image: "oficinaTN", displayName: "Oficina"),
+    Category(name: "monalisa", image: "monalisaTN", displayName: "Mona Lisa"),
     Category(name: "experimental", image: "experimentalThumbnail", displayName: "Experimental")
   ]
   
@@ -683,6 +750,10 @@ class PaintingCollections {
     "prints2": prints2,
     "billetes" : billetes,
     "experimental": experimental,
+    "cartoons4": cartoons4,
+    "oficina": oficina,
+    "neon3": neon3,
+    "monalisa": monalisa,
   ]
   
   func makeJSON() {

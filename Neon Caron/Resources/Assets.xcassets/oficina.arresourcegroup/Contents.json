@@ -1,0 +1,50 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "oficina_billeteCantinflas.arreferenceimage"
+    },
+    {
+      "filename" : "oficina_billeteSanto.arreferenceimage"
+    },
+    {
+      "filename" : "oficina_burnsToxic.arreferenceimage"
+    },
+    {
+      "filename" : "oficina_casaMerlin.arreferenceimage"
+    },
+    {
+      "filename" : "oficina_castilloDisney.arreferenceimage"
+    },
+    {
+      "filename" : "oficina_cerealDos.arreferenceimage"
+    },
+    {
+      "filename" : "oficina_chapulinColorado.arreferenceimage"
+    },
+    {
+      "filename" : "oficina_gokuMetal.arreferenceimage"
+    },
+    {
+      "filename" : "oficina_herculesRayo.arreferenceimage"
+    },
+    {
+      "filename" : "oficina_jesusCereal.arreferenceimage"
+    },
+    {
+      "filename" : "oficina_maoUno.arreferenceimage"
+    },
+    {
+      "filename" : "oficina_mickeyCorriendo.arreferenceimage"
+    },
+    {
+      "filename" : "oficina_monaBiff.arreferenceimage"
+    },
+    {
+      "filename" : "oficina_monalisaPuntos.arreferenceimage"
+    }
+  ]
+}

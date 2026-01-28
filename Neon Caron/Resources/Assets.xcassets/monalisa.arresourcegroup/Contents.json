@@ -1,0 +1,68 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "monalisa_monalisaCatorce.arreferenceimage"
+    },
+    {
+      "filename" : "monalisa_monalisaDiecinueve.arreferenceimage"
+    },
+    {
+      "filename" : "monalisa_monalisaDieciocho.arreferenceimage"
+    },
+    {
+      "filename" : "monalisa_monalisaDieciseis.arreferenceimage"
+    },
+    {
+      "filename" : "monalisa_monalisaDiecisiete.arreferenceimage"
+    },
+    {
+      "filename" : "monalisa_monalisaDoce.arreferenceimage"
+    },
+    {
+      "filename" : "monalisa_monalisaOnce.arreferenceimage"
+    },
+    {
+      "filename" : "monalisa_monalisaQuince.arreferenceimage"
+    },
+    {
+      "filename" : "monalisa_monalisaTrece.arreferenceimage"
+    },
+    {
+      "filename" : "monalisa_monalisaTreinta.arreferenceimage"
+    },
+    {
+      "filename" : "monalisa_monalisaVeinte.arreferenceimage"
+    },
+    {
+      "filename" : "monalisa_monalisaVeinticinco.arreferenceimage"
+    },
+    {
+      "filename" : "monalisa_monalisaVeinticuatro.arreferenceimage"
+    },
+    {
+      "filename" : "monalisa_monalisaVeintidos.arreferenceimage"
+    },
+    {
+      "filename" : "monalisa_monalisaVeintinueve.arreferenceimage"
+    },
+    {
+      "filename" : "monalisa_monalisaVeintiocho.arreferenceimage"
+    },
+    {
+      "filename" : "monalisa_monalisaVeintiseis.arreferenceimage"
+    },
+    {
+      "filename" : "monalisa_monalisaVeintisiete.arreferenceimage"
+    },
+    {
+      "filename" : "monalisa_monalisaVeintitres.arreferenceimage"
+    },
+    {
+      "filename" : "monalisa_monalisaVeintiuno.arreferenceimage"
+    }
+  ]
+}
