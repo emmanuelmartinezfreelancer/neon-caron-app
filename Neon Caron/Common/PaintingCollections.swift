@@ -29,6 +29,7 @@ class PaintingCollections {
       "classic3" : "https://neoncaron.com/video/progress/classic3.mp4",
       "classic4" : "https://neoncaron.com/video/progress/classic4.mp4",
       "hijasLeucipo" : "https://neoncaron.com/video/hijasLeucipo.mp4",
+      "homeroCTRL" : "https://neoncaron.com/video/homeroCTRL.mp4",
       //No lista
       "monaLisa" : "https://neoncaron.com/video/progress/monaLisa.mp4"
     ]
@@ -618,15 +619,13 @@ class PaintingCollections {
     ]
     
     let experimental = [
-        "oliva": "https://neoncaron.com/video/progress/trans2.mov",
-        "popeye": "https://neoncaron.com/video/progress/trans2.mov",
-        "taz": "https://neoncaron.com/video/progress/taz.mov",
-        "sonicoSupersonicos": "https://neoncaron.com/video/tazos_papaSupersonicos.mp4",
-        "ultraSupersonicos": "https://neoncaron.com/video/tazos_mamaSupersonicos.mp4",
-        "luceroSupersonicos": "https://neoncaron.com/video/tazos_hijaSupersonicos.mp4",
-        "cometinSupersonicos": "https://neoncaron.com/video/tazos_hijoSupersonicos.mp4",
-        "jupiterSupersonicos": "https://neoncaron.com/video/tazos_perroSupersonicos.mp4",
-        "robotinasSupersonicos": "https://neoncaron.com/video/tazos_robotinasSupersonicos.mp4",
+        "taz": "https://neoncaron.com/video/transparencies/taz.mov",
+        "sonicoSupersonicos": "https://neoncaron.com/video/transparencies/sonicoSupersonicos.mov",
+        "ultraSupersonicos": "https://neoncaron.com/video/transparencies/ultraSupersonicos.mov",
+        "luceroSupersonicos": "https://neoncaron.com/video/transparencies/luceroSupersonicos.mov",
+        "cometinSupersonicos": "https://neoncaron.com/video/transparencies/cometinSupersonicos.mov",
+        "jupiterSupersonicos": "https://neoncaron.com/video/transparencies/jupiterSupersonicos.mov",
+        "robotinasSupersonicos": "https://neoncaron.com/video/transparencies/robotinaSupersonicos.mov",
     ]
     
     let cartoons4 = [
