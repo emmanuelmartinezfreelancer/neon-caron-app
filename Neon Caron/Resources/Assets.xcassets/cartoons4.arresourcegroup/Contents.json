@@ -5,6 +5,9 @@
   },
   "resources" : [
     {
+      "filename" : "cartoons4_batman4.arreferenceimage"
+    },
+    {
       "filename" : "cartoons4_batmanDos.arreferenceimage"
     },
     {
@@ -12,6 +15,15 @@
     },
     {
       "filename" : "cartoons4_batmanUno.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons4_lucasAngry.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons4_lucasDouble.arreferenceimage"
+    },
+    {
+      "filename" : "cartoons4_lucasFour.arreferenceimage"
     },
     {
       "filename" : "cartoons4_mafiososMarge.arreferenceimage"

@@ -5,6 +5,24 @@
   },
   "resources" : [
     {
+      "filename" : "monalisa_monaABC.arreferenceimage"
+    },
+    {
+      "filename" : "monalisa_monaBalenciaga.arreferenceimage"
+    },
+    {
+      "filename" : "monalisa_monaBIFF.arreferenceimage"
+    },
+    {
+      "filename" : "monalisa_monaBLAM.arreferenceimage"
+    },
+    {
+      "filename" : "monalisa_monaDior.arreferenceimage"
+    },
+    {
+      "filename" : "monalisa_monaGoyard.arreferenceimage"
+    },
+    {
       "filename" : "monalisa_monalisaCatorce.arreferenceimage"
     },
     {
@@ -21,6 +39,12 @@
     },
     {
       "filename" : "monalisa_monalisaDoce.arreferenceimage"
+    },
+    {
+      "filename" : "monalisa_monalisaGato.arreferenceimage"
+    },
+    {
+      "filename" : "monalisa_monalisaLentes.arreferenceimage"
     },
     {
       "filename" : "monalisa_monalisaOnce.arreferenceimage"

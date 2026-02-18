@@ -636,6 +636,10 @@ class PaintingCollections {
         "supermanAmarillo": "https://neoncaron.com/video/Cartoons_Supermana3.mp4",
         "supermanAzul": "https://neoncaron.com/video/Cartoons_Supermana2.mp4",
         "supermanRojo": "https://neoncaron.com/video/Cartoons_Supermana.mp4",
+        "batman4": "https://neoncaron.com/video/cartoonsBatman4.mp4",
+        "lucasDouble": "https://neoncaron.com/video/cartoonsLucas.mp4",
+        "lucasAngry" : "https://neoncaron.com/video/cartoonsLucas1.mp4",
+        "lucasFour" : "https://neoncaron.com/video/cartoonsLucas2.mp4"
     ]
     
     let oficina = [
@@ -660,6 +664,45 @@ class PaintingCollections {
         "trumpUno": "https://neoncaron.com/video/Neon3_trump.mp4",
     ]
     
+    let monaLisaKraft = [
+        "kraftMonalisa1": "https://neoncaron.com/video/kraftMonalisa1.mp4",
+        "kraftMonalisa2": "https://neoncaron.com/video/kraftMonalisa2.mp4",
+        "kraftMonalisa3": "https://neoncaron.com/video/kraftMonalisa3.mp4",
+        "kraftMonalisa4": "https://neoncaron.com/video/kraftMonalisa4.mp4",
+        "kraftMonalisa5": "https://neoncaron.com/video/kraftMonalisa5.mp4",
+        "kraftMonalisa6": "https://neoncaron.com/video/kraftMonalisa6.mp4",
+        "kraftMonalisa7": "https://neoncaron.com/video/kraftMonalisa7.mp4",
+        "kraftMonalisa8": "https://neoncaron.com/video/kraftMonalisa8.mp4",
+        "kraftMonalisa9": "https://neoncaron.com/video/kraftMonalisa9.mp4",
+        "kraftMonalisa10": "https://neoncaron.com/video/kraftMonalisa10.mp4",
+        "kraftMonalisa11": "https://neoncaron.com/video/kraftMonalisa11.mp4",
+        "kraftMonalisa12": "https://neoncaron.com/video/kraftMonalisa12.mp4",
+        "kraftMonalisa13": "https://neoncaron.com/video/kraftMonalisa13.mp4",
+        "kraftMonalisa14": "https://neoncaron.com/video/kraftMonalisa14.mp4",
+        "kraftMonalisa15": "https://neoncaron.com/video/kraftMonalisa15.mp4",
+        "kraftMonalisa16": "https://neoncaron.com/video/kraftMonalisa16.mp4",
+        "kraftMonalisa17": "https://neoncaron.com/video/kraftMonalisa17.mp4",
+        "kraftMonalisa18": "https://neoncaron.com/video/kraftMonalisa18.mp4",
+        "kraftMonalisa19": "https://neoncaron.com/video/kraftMonalisa19.mp4",
+        "kraftMonalisa20": "https://neoncaron.com/video/kraftMonalisa20.mp4",
+        "kraftMonalisa21": "https://neoncaron.com/video/kraftMonalisa21.mp4",
+        "kraftMonalisa22": "https://neoncaron.com/video/kraftMonalisa22.mp4",
+        "kraftMonalisa23": "https://neoncaron.com/video/kraftMonalisa23.mp4",
+        "kraftMonalisa24": "https://neoncaron.com/video/kraftMonalisa24.mp4",
+        "kraftMonalisa25": "https://neoncaron.com/video/kraftMonalisa25.mp4",
+        "kraftMonalisa26": "https://neoncaron.com/video/kraftMonalisa26.mp4",
+        "kraftMonalisa27": "https://neoncaron.com/video/kraftMonalisa27.mp4",
+        "kraftMonalisa28": "https://neoncaron.com/video/kraftMonalisa28.mp4",
+        "kraftMonalisa29": "https://neoncaron.com/video/kraftMonalisa29.mp4",
+        "kraftMonalisa30": "https://neoncaron.com/video/kraftMonalisa30.mp4",
+        "kraftMonalisa31": "https://neoncaron.com/video/kraftMonalisa31.mp4",
+        "kraftMonalisa32": "https://neoncaron.com/video/kraftMonalisa32.mp4",
+        "kraftMonalisa33": "https://neoncaron.com/video/kraftMonalisa33.mp4",
+        "kraftMonalisa34": "https://neoncaron.com/video/kraftMonalisa34.mp4",
+        "kraftMonalisa35": "https://neoncaron.com/video/kraftMonalisa35.mp4",
+        "kraftMonalisa36": "https://neoncaron.com/video/kraftMonalisa36.mp4"
+    ]
+    
     let monalisa = [
         "monalisaCatorce": "https://neoncaron.com/video/Monalisa14.mp4",
         "monalisaDiecinueve": "https://neoncaron.com/video/Monalisa19.mp4",
@@ -681,12 +724,21 @@ class PaintingCollections {
         "monalisaVeintisiete": "https://neoncaron.com/video/Monalisa27.mp4",
         "monalisaVeintitres": "https://neoncaron.com/video/Monalisa23.mp4",
         "monalisaVeintiuno": "https://neoncaron.com/video/Monalisa21.mp4",
+        "monaDior": "https://neoncaron.com/video/legacystore_mona10.mp4",
+        "monaGoyard": "https://neoncaron.com/video/legacystore_mona11.mp4",
+        "monaBIFF": "https://neoncaron.com/video/legacystore_Mona4.mp4",
+        "monaBalenciaga": "https://neoncaron.com/video/legacystore_mona9.mp4",
+        "monaABC": "https://neoncaron.com/video/monalisa1.mp4",
+        "monalisaLentes": "https://neoncaron.com/video/monalisa2.mp4",
+        "monalisaGato": "https://neoncaron.com/video/monalisa3.mp4",
     ]
 
   
   let categoryNames = [
     Category(name: "aviones", image: "avionesThumbnail", displayName: "Aviones"),
-    Category(name: "legacy", image: "legacyStore", displayName: "Legacy Store"),
+    Category(name: "monalisa", image: "monalisaTN", displayName: "Mona Lisa"),
+    Category(name: "monaLisaKraft", image: "monalisaKraftTN", displayName: "Mona Lisa Kraft"),
+    //Category(name: "legacy", image: "legacyStore", displayName: "Legacy Store"),
     //Category(name: "algoritmicaintima", image: "logoAI", displayName: "Algorítmica Íntima"),
     Category(name: "classical", image: "noesromero", displayName: "Classical"),
     Category(name: "interventions", image: "disneyCastle", displayName: "Interventions"),
@@ -714,13 +766,14 @@ class PaintingCollections {
     Category(name: "brand", image: "Periodico", displayName: "Brands"),
     Category(name: "salinas", image: "cayetano", displayName: "Salinas"),
     Category(name: "oficina", image: "oficinaTN", displayName: "Oficina"),
-    Category(name: "monalisa", image: "monalisaTN", displayName: "Mona Lisa"),
     Category(name: "experimental", image: "experimentalThumbnail", displayName: "Experimental")
   ]
   
   lazy var collections = [
     "aviones" : aviones,
-    "legacy" : legacy,
+    "monalisa": monalisa,
+    "monaLisaKraft": monaLisaKraft,
+    //"legacy" : legacy,
     //"algoritmicaintima" : algoritmicaintima,
     "classical": classical,
     "interventions": interventions,
@@ -753,8 +806,7 @@ class PaintingCollections {
     "experimental": experimental,
     "cartoons4": cartoons4,
     "oficina": oficina,
-    "neon3": neon3,
-    "monalisa": monalisa,
+    "neon3": neon3
   ]
   
   func makeJSON() {
