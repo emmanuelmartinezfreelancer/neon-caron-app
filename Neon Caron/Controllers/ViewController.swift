@@ -8,6 +8,7 @@
 import UIKit
 import SceneKit
 import ARKit
+import AVFoundation
 
 class ViewController: UIViewController, ARSCNViewDelegate {
   
@@ -17,6 +18,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
   let paintingCollections = PaintingCollections()
   private let downloadManager = SDDownloadManager.shared
   var videoPlayers: [String: AVPlayer] = [:]
+  var playerLoopers: [String: AVPlayerLooper] = [:]
+  var streamLoopObserverTokens: [String: Any] = [:]
   var nodesUsingLocalFiles: [String] = []
   
   override func viewDidLoad() {
@@ -47,8 +50,14 @@ class ViewController: UIViewController, ARSCNViewDelegate {
   override func viewWillDisappear(_ animated: Bool) {
     super.viewWillDisappear(animated)
     
-    // Pause the view's session
     sceneView.session.pause()
+    for (anchorName, token) in streamLoopObserverTokens {
+      videoPlayers[anchorName]?.removeTimeObserver(token)
+    }
+    streamLoopObserverTokens.removeAll()
+    videoPlayers.removeAll()
+    playerLoopers.removeAll()
+    nodesUsingLocalFiles.removeAll()
   }
   
   func getDownloadedVideoURL(name: String) -> URL? {
@@ -106,21 +115,22 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     if let localURL = getDownloadedVideoURL(name: fileName) {
       print("✅ [DEBUG] Using cached video: \(localURL.path)")
       videoItem = AVPlayerItem(url: localURL)
-      player = AVPlayer(playerItem: videoItem)
+      let queuePlayer = AVQueuePlayer(playerItem: videoItem)
+      let looper = AVPlayerLooper(player: queuePlayer, templateItem: videoItem)
+      player = queuePlayer
+      playerLoopers[anchorName] = looper
       nodesUsingLocalFiles.append(anchor.name ?? "")
     } else {
       print("🌐 [DEBUG] Streaming video from URL: \(url.absoluteString)")
       videoItem = CachingPlayerItem(url: url)
       player = AVPlayer(playerItem: videoItem)
       downloadFile(url: url)
+      addStreamingLoopObserver(player: player, anchorName: anchorName)
     }
     
     videoPlayers[anchorName] = player
     print("✅ [DEBUG] Player created and stored for: \(anchorName)")
     player.automaticallyWaitsToMinimizeStalling = false
-    
-    // add observer when our player.currentItem finishes player, then start playing from the beginning
-    addFinishedPlayingObserver(player: player, videoItem: videoItem, fileName: fileName, targetName: anchor.name ?? "")
     
     // create a plan that has the same real world height and width as our detected image
     let plane = SCNPlane(width: imageAnchor.referenceImage.physicalSize.width, height: imageAnchor.referenceImage.physicalSize.height)
@@ -158,20 +168,24 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     print("✅ [DEBUG] Plane node added to scene - Video should be playing now")
   }
   
-  private func addFinishedPlayingObserver(player: AVPlayer, videoItem: AVPlayerItem, fileName: String, targetName: String) {
-    NotificationCenter.default.addObserver(forName: .AVPlayerItemDidPlayToEndTime, object: videoItem, queue: nil) { [weak self] (notification) in
-      guard let `self` = self else {return}
-      if !self.nodesUsingLocalFiles.contains(targetName), let localURL = self.getDownloadedVideoURL(name: fileName) {
-        let localVideoItem = AVPlayerItem(url: localURL)
-        player.replaceCurrentItem(with: localVideoItem)
-        self.nodesUsingLocalFiles.append(targetName)
-        self.addFinishedPlayingObserver(player: player, videoItem: localVideoItem, fileName: fileName, targetName: targetName)
+  /// For streaming (CachingPlayerItem), loop by checking time near end — AVPlayerItemDidPlayToEndTime often doesn't fire.
+  private func addStreamingLoopObserver(player: AVPlayer, anchorName: String) {
+    let interval = CMTime(seconds: 0.25, preferredTimescale: CMTimeScale(NSEC_PER_SEC))
+    let token = player.addPeriodicTimeObserver(forInterval: interval, queue: .main) { [weak self] time in
+      guard let self = self,
+            let item = player.currentItem else { return }
+      let duration = item.duration
+      guard duration.seconds.isFinite, duration.seconds > 0.5 else { return }
+      let nearEnd = time.seconds >= duration.seconds - 0.2
+      if nearEnd {
+        player.seek(to: .zero) { finished in
+          if finished { player.play() }
+        }
       }
-      player.seek(to: CMTime.zero)
-      player.play()
     }
+    streamLoopObserverTokens[anchorName] = token
   }
-  
+
   func renderer(_ renderer: SCNSceneRenderer, didUpdate node: SCNNode, for anchor: ARAnchor) {
     if let anchorName = anchor.name, let player = videoPlayers[anchorName]{
       let action = node.isHidden ? { player.pause() } : { player.play() }
