@@ -735,10 +735,10 @@ class PaintingCollections {
 
   
   let categoryNames = [
+    Category(name: "legacy", image: "legacyStore", displayName: "Legacy Store"),
     Category(name: "aviones", image: "avionesThumbnail", displayName: "Aviones"),
     Category(name: "monalisa", image: "monalisaTN", displayName: "Mona Lisa"),
     Category(name: "monaLisaKraft", image: "monalisaKraftTN", displayName: "Mona Lisa Kraft"),
-    //Category(name: "legacy", image: "legacyStore", displayName: "Legacy Store"),
     //Category(name: "algoritmicaintima", image: "logoAI", displayName: "Algorítmica Íntima"),
     Category(name: "classical", image: "noesromero", displayName: "Classical"),
     Category(name: "interventions", image: "disneyCastle", displayName: "Interventions"),
@@ -770,10 +770,10 @@ class PaintingCollections {
   ]
   
   lazy var collections = [
+    "legacy" : legacy,
     "aviones" : aviones,
     "monalisa": monalisa,
     "monaLisaKraft": monaLisaKraft,
-    //"legacy" : legacy,
     //"algoritmicaintima" : algoritmicaintima,
     "classical": classical,
     "interventions": interventions,
