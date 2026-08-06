@@ -146,17 +146,9 @@ class ViewController: UIViewController, ARSCNViewDelegate {
       player = AVPlayer(playerItem: videoItem)
       player.automaticallyWaitsToMinimizeStalling = true
 
-      // Loop via notification — seek back to start when video ends
-      let token = NotificationCenter.default.addObserver(
-        forName: .AVPlayerItemDidPlayToEndTime,
-        object: videoItem,
-        queue: .main
-      ) { [weak player] _ in
-        player?.seek(to: .zero) { finished in
-          if finished { player?.play() }
-        }
-      }
-      endObserverTokens[anchorName] = token
+      // Loop via periodic time check — AVPlayerItemDidPlayToEndTime doesn't fire
+      // reliably for CachingPlayerItem or HEVC alpha videos
+      addStreamingLoopObserver(player: player, anchorName: anchorName)
 
     } else if let localURL = getDownloadedVideoURL(name: fileName) {
       print("✅ [DEBUG] Using cached video: \(localURL.path)")
